@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/form.css">
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <h1>Payment Page</h1>
+            <hr>
+            <h2>Contact Information</h2>
+            <p>* indicates the neccessary fields</p>
+            <p>Name: *<input type="text" name="name" id="name_input" required placeholder="Enter your Name"></p>
+            <fieldset>
+                <legend>Gender *</legend>
+                <p> <input type="radio" name="gender" id="gender_input1" required>Male
+                    <input type="radio" name="gender" id="gender_input2" required>Female
+                </p>
+            </fieldset>
+            <p>Address:<textarea name="address" id="address_input" cols="30" rows="7" placeholder="Enter your Address"></textarea></p>
+            <p>E-mail: *<input type="email" name="email" id= "email_input" required placeholder="abc@gmail.com"></p>
+            <p>PinCode: *<input type="password" name="password" id="password_input" required placeholder="123456"></p>
+            <h2>Payment Information</h2>
+            <p>Card Type: *<select name="card_type" id="card_type_input" required><option value="">--SELECT CARD TYPE--</option>
+            <option value="master">Master Card</option>
+            <option value="rupay">Rupay Card</option>
+            <option value="visa">Visa Card</option>
+            </select>
+            </p>
+            <p>Card Number: *<input type="number" name="number" id= "number_input" required placeholder="123456789"></p>
+            <p>Expire Date: *<input type="date" name="date" id="date_input" required></p>
+            <p>CVV: *<input type="password" name="password" id="password_input" required placeholder="123"></p>
+            
+            <input type="submit" value="Pay Now">
+        </form>
+    </div>
+</body>
+</html>

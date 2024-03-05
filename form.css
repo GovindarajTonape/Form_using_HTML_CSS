@@ -1,0 +1,62 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+
+div{
+    margin: 0px 20px 20px 20px;
+    padding: 0px 20px 20px 20px;
+    background-color: #f4f0f0;
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    margin: 20px 20px 0px 20px;
+    font-size: 80px;
+}
+
+h2{
+    font-size: 50px;
+    text-align: left;
+    padding-top: 10px;
+}
+
+input[type = "text"],
+/* input[type = "radio"], */
+input[type = "email"],
+input[type = "password"],
+input[type = "number"],
+input[type = "date"],
+input[type = "submit"],
+textarea,
+select
+{
+    width: 100%;
+    border: 1px solid black;
+    margin: 5px 5px 5px 0px;
+    padding: 14px;
+    border-radius: 8px;
+}
+
+
+fieldset{
+    background-color: #fff;
+    border-radius: 8px;
+}
+legend{
+    background-color: #fff;
+}
+
+input[type = "submit"]{
+    background-color: #90d4b2;
+    cursor: pointer;
+    font-size: 24px;
+    border: none;
+}
+input[type = "submit"]:hover{
+    background-color:#61d49b;
+    box-shadow: 5px 5px 5px black;
+}
